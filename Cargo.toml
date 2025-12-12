@@ -1,0 +1,11 @@
+[package]
+name = "rust-cors-proxy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytes = { version = "1.11.0", default-features = false }
+once_cell = { version = "1.21.3", default-features = false }
+reqwest = { version = "0.12.25", default-features = false, features = ["native-tls"] }
+tokio = { version = "1.48.0", default-features = false, features = ["macros", "rt-multi-thread"] }
+warp = { version = "0.4.2", default-features = false, features = ["server"] }
