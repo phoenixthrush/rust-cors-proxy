@@ -779,6 +779,7 @@ dependencies = [
  "once_cell",
  "reqwest",
  "tokio",
+ "url",
  "warp",
 ]
 
